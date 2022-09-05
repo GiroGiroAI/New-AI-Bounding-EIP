@@ -10,6 +10,8 @@ The extension allows an ERC-721 token $Y$ to be attached to another ERC-721 toke
 > *The motivation section should describe the "why" of this EIP. What problem does it solve? Why should someone want to implement this standard? What benefit does it provide to the Ethereum ecosystem? What use cases does this EIP address?*
 > 
 
+This EIP helps GiroGiro.AI to bound AI models to NFTs in the form of SoulBoundToken, which is not transferrable nor tradable, positioning the AI model as the brain/soul of the related NFTs. This SBT idea is different from the concept brought up by Vitalik which stresses on the connection between SBT and a wallet.
+
 This EIP introduces a new tokenomics hierarchy, a unidirectional relationship from a peripheral token $Z$ to an intermediate host/peripheral token $Y$ to a root host token $X$. The simplified unidirectional relationship opens many opportunities for peripheral token designers and enhances the functionalities of the existing and future tokens. In particular, the peripheral token designers have complete flexibility in creating digital assets without any action required from the host token sponsors. 
 
 For example, in a decentralized RPG GameFi world, the blacksmith can create weapons and armors (token $Y$) autonomously for characters (token $X$), and the gem maker can carve stones (token $Z$) to enhance weapons and armors (token $Y$) without any intervention from the blacksmith. This EIP intentionally ignores a top-down (centralized) relationship where the host token dictates the attached token’s specification. In true decentralization, the peripheral token extension facilitates user-generated content creation and enriches the host token’s functionalities and desirability.
